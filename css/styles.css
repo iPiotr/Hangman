@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 55%;
+}
+
+body {
+    background-image: url("bg.png");
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.content {
+     background: rgba(233, 233, 233, 0.7);
+     padding: 15% 5%;
+     border-bottom-right-radius: 3rem;
+     border-top-left-radius: 3rem;
+}
+
+.blocks {
+    margin-left: 1.7rem;
+}
+
+span {
+    border-bottom: 1px solid #464646;
+    display: inline-block;
+    font-size: 2rem;
+    height: 2.4rem;
+    line-height: 2.4rem;
+    margin: 0 .1rem;
+    text-align: center;
+    text-transform: uppercase;
+    width: 2.4rem;
+    border: ;
+}
+
+.empty {
+    border: none;
+}
+
+p {
+    font-weight: 300;
+    margin-bottom: .8rem;
+}
+
+.letter {
+    display: flex;
+    margin-bottom: 4.8rem;
+    padding: 15px;
+}
+
+.button {
+    background: #148a10;
+    color: #fff;
+    border: none;
+    border-bottom: 3px solid #11571a;
+    cursor: pointer;
+    padding: 1rem;
+    transition: background 0.3s ease;
+    border-radius: 5px;
+    outline: none;
+}
+
+.button:hover {
+    background: #10681b;
+}
+
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 30%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+     html {
+         font-size: 50%;
+     }
+}
+
+@media only screen and (min-width: 786px) {
+    html {
+        font-size: 60%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .content {
+        padding: 12% 4%;
+    }
+}
