@@ -40,11 +40,6 @@ span {
     text-align: center;
     text-transform: uppercase;
     width: 2.4rem;
-    border: ;
-}
-
-.empty {
-    border: none;
 }
 
 p {
@@ -93,6 +88,7 @@ p {
 }
 
 @media only screen and (min-width: 1200px) {
+
     .content {
         padding: 12% 4%;
     }
